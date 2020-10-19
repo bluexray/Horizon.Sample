@@ -1,0 +1,23 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Horizon.Services.proto3";
+
+package AliPayment;
+
+message TradeModel{
+	string out_trade_no =1;
+	string body=2;
+	string Subject=3;	
+	string TotalAmount=4;
+	string mark=5;
+
+}
+
+message AlipayReponse{
+	string message=1;
+	string qrcode=2;
+}
+
+service AliPayment {
+	rpc ExecuteAsync (TradeModel) returns (AlipayReponse);
+}

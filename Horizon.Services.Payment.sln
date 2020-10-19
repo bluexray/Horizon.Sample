@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horizon.Payment.Core", "Horizon.Payment.Core\Horizon.Payment.Core.csproj", "{CF5F380D-8A53-4AC0-AA1E-2B57E25C4DBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horizon.Payment.Alipay", "Horizon.Payment.Alipay\Horizon.Payment.Alipay.csproj", "{C59C344D-D37A-4BF0-95FD-B541B6A1E73D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horizon.Services.PayCenter", "Horizon.Services.PayCenter\Horizon.Services.PayCenter.csproj", "{EA38FB1B-DA27-4524-9F0E-DAF30850CB84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horizon.Services.PayBFF", "Horizon.Services.PaySuff\Horizon.Services.PayBFF.csproj", "{60560CBE-2C52-4A98-AB30-9C84613DE238}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Horizon.Payment.WechatPay", "Horizon.Payment.Wechat\Horizon.Payment.WechatPay.csproj", "{F9FB6F65-3082-4F64-B785-A675A7BDC10A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FE53974D-1B83-4ECC-A243-0C4742318990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5F380D-8A53-4AC0-AA1E-2B57E25C4DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5F380D-8A53-4AC0-AA1E-2B57E25C4DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5F380D-8A53-4AC0-AA1E-2B57E25C4DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5F380D-8A53-4AC0-AA1E-2B57E25C4DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59C344D-D37A-4BF0-95FD-B541B6A1E73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59C344D-D37A-4BF0-95FD-B541B6A1E73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59C344D-D37A-4BF0-95FD-B541B6A1E73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59C344D-D37A-4BF0-95FD-B541B6A1E73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA38FB1B-DA27-4524-9F0E-DAF30850CB84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA38FB1B-DA27-4524-9F0E-DAF30850CB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA38FB1B-DA27-4524-9F0E-DAF30850CB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA38FB1B-DA27-4524-9F0E-DAF30850CB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60560CBE-2C52-4A98-AB30-9C84613DE238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60560CBE-2C52-4A98-AB30-9C84613DE238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60560CBE-2C52-4A98-AB30-9C84613DE238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60560CBE-2C52-4A98-AB30-9C84613DE238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FB6F65-3082-4F64-B785-A675A7BDC10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FB6F65-3082-4F64-B785-A675A7BDC10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FB6F65-3082-4F64-B785-A675A7BDC10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FB6F65-3082-4F64-B785-A675A7BDC10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE53974D-1B83-4ECC-A243-0C4742318990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE53974D-1B83-4ECC-A243-0C4742318990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE53974D-1B83-4ECC-A243-0C4742318990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE53974D-1B83-4ECC-A243-0C4742318990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B8BB8E-70B9-4B3F-B56F-1E3A5EC25096}
+	EndGlobalSection
+EndGlobal

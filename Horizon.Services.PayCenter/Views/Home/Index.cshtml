@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    
+    <div class="text-left">
+        <p>当面付-二维码/条码/声波支付</p>
+        <p><a href="https://docs.open.alipay.com/api_1/alipay.trade.pay" target="_blank">alipay.trade.pay</a></p>
+        <p><a asp-controller="Home" asp-action="Pay">立即测试</a></p>
+    </div>
+    <div class="text-left">
+        <p>扫码支付</p>
+        <p><a href="https://docs.open.alipay.com/api_1/alipay.trade.pay" target="_blank">alipay.trade.precreate</a></p>
+        <p><a asp-controller="Home" asp-action="PreCreate">立即测试</a></p>
+    </div>
+</div>

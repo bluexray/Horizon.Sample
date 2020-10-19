@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "Horizon.Services.PaySuff": {
+    "commandName": "Project",
+    "launchBrowser": true,
+    "launchUrl": "api/Alipay",
+    "applicationUrl": "http://localhost:5020",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development",
+      "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "SkyAPM.Agent.AspNetCore",
+      "SKYWALKING__SERVICENAME": "Horizon.services.PayBff"
+    }
+  }
+}
