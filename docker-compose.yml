@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  horizon.services.paygrpc:
+    container_name: paygrpcdev   
+    image: tiger8/paygrpcdev:v1
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Horizon.Services.PayCenter/Dockerfile
+    networks: 
+      - front-tier
+      - backend-tier
+
+  
+
+  horizon.Services.paybff:
+    container_name: paybffdev
+    image: tiger8/paybffdev:v1
+    restart: always
+    depends_on: 
+      - horizon.services.paygrpc
+    build:
+      context: .
+      dockerfile: ./Horizon.Services.PayCenter/Dockerfile 
+    ports: 
+      - 5021
+      - 5025
+    networks: 
+      - front-tier
+      - backend-tier
+
+networks:
+  front-tier:
+  backend-tier:     
